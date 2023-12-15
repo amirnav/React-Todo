@@ -6,21 +6,21 @@ import { taskContext } from './taskContext';
 const App = ()=>{
 
     const[taskItems,setTaskItems]=useState([
-        {
-            id:1,
-            title:"Task 1",
-            done:true
-        },
-        {
-            id:2,
-            title:"Task 2",
-            done:true
-        },
-        {
-            id:3,
-            title:"Task 3",
-            done:false
-        }
+        // {
+        //     id:1,
+        //     title:"Task 1",
+        //     done:true
+        // },
+        // {
+        //     id:2,
+        //     title:"Task 2",
+        //     done:true
+        // },
+        // {
+        //     id:3,
+        //     title:"Task 3",
+        //     done:false
+        // }
     ])
     return (
             <div className="container w-100 h-100 p-3">
